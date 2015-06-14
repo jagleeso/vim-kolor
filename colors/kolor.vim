@@ -133,7 +133,7 @@ if g:kolor_bold==0
   highlight Keyword         guifg=#d96e8a    guibg=NONE       gui=none
   highlight Title           guifg=#a080ea    guibg=NONE       gui=none
   if g:kolor_alternative_matchparen==0
-    highlight MatchParen      guifg=#2e2c29    guibg=#ff5fd7    gui=none
+    highlight MatchParen      guifg=#ff5fd7    guibg=none    gui=none
   else
     highlight MatchParen      guifg=#2e2c29    guibg=#9e9e9e    gui=none
   endif
@@ -152,7 +152,7 @@ else
   highlight Keyword         guifg=#d96e8a    guibg=NONE       gui=bold
   highlight Title           guifg=#a080ea    guibg=NONE       gui=bold
   if g:kolor_alternative_matchparen==0
-    highlight MatchParen      guifg=#2e2c29    guibg=#ff5fd7    gui=bold
+    highlight MatchParen      guifg=#ff5fd7    guibg=none    gui=none
   else
     highlight MatchParen      guifg=#2e2c29    guibg=#9e9e9e    gui=bold
   endif
@@ -233,7 +233,7 @@ if &t_Co > 255
     highlight Keyword         ctermfg=168     ctermbg=none    cterm=none
     highlight Title           ctermfg=141     ctermbg=none    cterm=none
     if g:kolor_alternative_matchparen==0
-      highlight MatchParen      ctermfg=235     ctermbg=206     cterm=none
+      highlight MatchParen      ctermfg=206     ctermbg=none     cterm=none
     else
       highlight MatchParen      ctermfg=235     ctermbg=247     cterm=none
     endif
@@ -252,7 +252,7 @@ if &t_Co > 255
     highlight Keyword         ctermfg=168     ctermbg=none    cterm=bold
     highlight Title           ctermfg=141     ctermbg=none    cterm=bold
     if g:kolor_alternative_matchparen==0
-      highlight MatchParen      ctermfg=235     ctermbg=206     cterm=bold
+      highlight MatchParen      ctermfg=206     ctermbg=none     cterm=bold
     else
       highlight MatchParen      ctermfg=235     ctermbg=247     cterm=bold
     endif
